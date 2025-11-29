@@ -34,13 +34,10 @@ Use `python main.py` to run the main GUI program.
 # Training/Testing
 Use `python training.py`
   Unmodified, the training process uses 4 cores and approx. 32GB of RAM. 
-  The RAM usage can be lowered by either changing n_jobs=4 on line 70 of training.py or narrowing the dataset.
+  The RAM usage can be lowered by either changing `n_jobs=4` on line 70 of `training.py` or narrowing the dataset.
 
 After training, the Efficiency Metrics will be printed to the console.
-To view the metrics without retraining, use 
-'''shell
-python training.py -metrics
-'''
+To view the metrics without retraining, use `python training.py -metrics`
 
 
 # Known Issues
